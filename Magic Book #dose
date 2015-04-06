@@ -3,17 +3,17 @@
 give @p written_book 1 0 {title:"Magic Book",author:"Bz1261",pages:[
         
 "{text:'Tp\n\n',extra:[
-        {text:'* tp Bz1261 to ZerefLies\n\n',color:black,clickEvent:{action:run_command,value:'/tp Bz1261 ZerefLies'}},
-        {text:'* tp Bz1261 to Accato\n\n',color:black,clickEvent:{action:run_command,value:'/tp Bz1261 Accato'}},
-        {text:'* tp ZerefLies to Bz1261\n\n',color:black,clickEvent:{action:run_command,value:'/tp ZerefLies Bz1261'}},
-        {text:'* tp ZerefLies to Accato\n\n',color:black,clickEvent:{action:run_command,value:'/tp ZerefLies Accato'}},
-        {text:'* tp Accato to Bz1261\n\n',color:black,clickEvent:{action:run_command,value:'/tp Accato Bz1261'}},
-        {text:'* tp Accato to ZerefLies\n\n',color:black,clickEvent:{action:run_command,value:'/tp Accato ZerefLies'}}]}",
+        {text:'* tp Bz1261 to ZerefLies\n',color:black,clickEvent:{action:run_command,value:'/tp Bz1261 ZerefLies'}},
+        {text:'* tp Bz1261 to Accato\n',color:black,clickEvent:{action:run_command,value:'/tp Bz1261 Accato'}},
+        {text:'* tp ZerefLies to Bz1261\n',color:black,clickEvent:{action:run_command,value:'/tp ZerefLies Bz1261'}},
+        {text:'* tp ZerefLies to Accato\n',color:black,clickEvent:{action:run_command,value:'/tp ZerefLies Accato'}},
+        {text:'* tp Accato to Bz1261\n',color:black,clickEvent:{action:run_command,value:'/tp Accato Bz1261'}},
+        {text:'* tp Accato to ZerefLies\n',color:black,clickEvent:{action:run_command,value:'/tp Accato ZerefLies'}}]}",
         
 "{text:'Clear\n\n',extra:[
 	{text:'* Entities\n',color:black}, 
 	{text:' 100 blocks',color:dark_aqua,clickEvent:{action:run_command,value:'/kill @e[type=!Player,r=100]'}},
-	{text:' | ',color:black},
+	{text:' | ',color:black'}}]}",
 	
 {text:'Give\n\n',color:black},
 	{text:'* Barrier\n',color:dark_aqua,clickEvent:{action:run_command,value:'/give @p barrier'}},
@@ -36,7 +36,7 @@ give @p written_book 1 0 {title:"Magic Book",author:"Bz1261",pages:[
 		{text:'Day',color:dark_aqua,clickEvent:{action:run_command,value:'/time set day'}},
 		{text:' | ',color:black},
 		{text:'Night\n',color:dark_aqua,clickEvent:{action:run_command,value:'/time set night'}},
-  	{text:'* Day cycle: ',color:black},
+  	{text:'* Day cycle: ',color:black'}}]}",
     
 "{text:' A creation of /u/The_Webmage.\nMagic Book v1.3\n\nWant to check and see if you have the latest version? The \/give command can be found ',extra:[
 {text:'Here.',color:dark_aqua,clickEvent:{action:open_url,value:'http://github.com/TheWebmage/commands-json/blob/master/Magic%20Book'}}]}"
