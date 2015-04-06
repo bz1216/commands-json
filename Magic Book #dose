@@ -2,13 +2,13 @@
 
 give @p written_book 1 0 {title:"Magic Book",author:"Bz1261",pages:[
         
-        "{text:'Tp\n\n',extra:[
-        {text:'* tp Bz1261toZerefLies\n',color:black,clickEvent:{action:run_command,value:'/tp Bz1261 ZerefLies'}},
-        {text:'* tp Bz1261toAccato\n',color:black,clickEvent:{action:run_command,value:'/tp Bz1261 Accato'}},
-        {text:'* tp ZerefLiestoBz1261\n',color:black,clickEvent:{action:run_command,value:'/tp ZerefLies Bz1261'}},
-        {text:'* tp ZerefLiestoAccato\n',color:black,clickEvent:{action:run_command,value:'/tp ZerefLies Accato'}},
-        {text:'* tp AccatotoBz1261\n',color:black,clickEvent:{action:run_command,value:'/tp Accato Bz1261'}},
-        {text:'* tp AccatotoZerefLies\n',color:black,clickEvent:{action:run_command,value:'/tp Accato ZerefLies'}}]}",
+{text:'Tp\n\n',extra:[
+        {text:'* tp Bz1261 to ZerefLies\n',color:black,clickEvent:{action:run_command,value:'/tp Bz1261 ZerefLies'}},
+        {text:'* tp Bz1261 to Accato\n',color:black,clickEvent:{action:run_command,value:'/tp Bz1261 Accato'}},
+        {text:'* tp ZerefLies to Bz1261\n',color:black,clickEvent:{action:run_command,value:'/tp ZerefLies Bz1261'}},
+        {text:'* tp ZerefLies to Accato\n',color:black,clickEvent:{action:run_command,value:'/tp ZerefLies Accato'}},
+        {text:'* tp Accato to Bz1261\n',color:black,clickEvent:{action:run_command,value:'/tp Accato Bz1261'}},
+        {text:'* tp Accato to ZerefLies\n',color:black,clickEvent:{action:run_command,value:'/tp Accato ZerefLies'}}]}",
         
 "{text:'Clear\n\n',extra:[
 	{text:'* Entities\n',color:black}, 
