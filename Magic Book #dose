@@ -37,9 +37,6 @@ give @p written_book 1 0 {title:"Magic Book",author:"Bz1261",pages:[
 		{text:' | ',color:black},
 		{text:'Night\n',color:dark_aqua,clickEvent:{action:run_command,value:'/time set night'}},
   	{text:'* Day cycle: ',color:black},
-
-{text:'Weather\n\n',color:black},
-	{text:'* Off\n',color:dark_aqua,clickEvent:{action:run_command,value:'/weather clear 1000000'}},
     
 "{text:' A creation of /u/The_Webmage.\nMagic Book v1.3\n\nWant to check and see if you have the latest version? The \/give command can be found ',extra:[
 {text:'Here.',color:dark_aqua,clickEvent:{action:open_url,value:'http://github.com/TheWebmage/commands-json/blob/master/Magic%20Book'}}]}"
